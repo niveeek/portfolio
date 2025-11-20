@@ -35,4 +35,4 @@ jobs:
             sudo systemctl enable apache2
             cd app
             sudo rm -rf /var/www/html/*
-            sudo mv * /var/www/html
+            sudo mv /app/* /var/www/html/
