@@ -14,8 +14,3 @@ variable "key_name" {
   description = "Nombre del key pair"
   default     = "mykey"
 }
-
-variable "my_ip" {
-  type        = string
-  description = "IP para acceso SSH"
-}
