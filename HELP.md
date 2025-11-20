@@ -14,7 +14,7 @@ Implementación de un despliegue continuo usando las GitHub Actions junto con AW
 #### Obtener el index con cURL/HTTPie
 
 ```bash
-  curl http://ec2-107-20-61-60.compute-1.amazonaws.com
+curl -i http://ec2-107-20-61-60.compute-1.amazonaws.com
 ```
 
 ## Run Locally
